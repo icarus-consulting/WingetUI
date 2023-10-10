@@ -13,25 +13,25 @@ contributors = [
   "aaronliu0130",
   "vedantmgoyal2009",
   "adfnekc",
+  "BastianKamp",
   "candrapersada",
   "elliot-100",
+  "raghavdhingra24",
   "sitiom",
   "joguarino",
   "neoOpus",
   "HorridModz",
+  "reima",
   "Satanarious",
   "vsilvar",
-  "BastianKamp",
-  "quantumfallout",
-  "derula",
-  "flatron4eg"
+  "quantumfallout"
 ]
 
 contributorsInfo = [
   {
     "name": "marticliment",
     "link": "https://github.com/marticliment",
-    "contributions": 1799
+    "contributions": 2048
   },
   {
     "name": "ppvnf",
@@ -41,7 +41,7 @@ contributorsInfo = [
   {
     "name": "panther7",
     "link": "https://github.com/panther7",
-    "contributions": 66
+    "contributions": 67
   },
   {
     "name": "RavenMacDaddy",
@@ -89,6 +89,11 @@ contributorsInfo = [
     "contributions": 2
   },
   {
+    "name": "BastianKamp",
+    "link": "https://github.com/BastianKamp",
+    "contributions": 2
+  },
+  {
     "name": "candrapersada",
     "link": "https://github.com/candrapersada",
     "contributions": 2
@@ -96,6 +101,11 @@ contributorsInfo = [
   {
     "name": "elliot-100",
     "link": "https://github.com/elliot-100",
+    "contributions": 2
+  },
+  {
+    "name": "raghavdhingra24",
+    "link": "https://github.com/raghavdhingra24",
     "contributions": 2
   },
   {
@@ -119,6 +129,11 @@ contributorsInfo = [
     "contributions": 1
   },
   {
+    "name": "reima",
+    "link": "https://github.com/reima",
+    "contributions": 1
+  },
+  {
     "name": "Satanarious",
     "link": "https://github.com/Satanarious",
     "contributions": 1
@@ -129,23 +144,8 @@ contributorsInfo = [
     "contributions": 1
   },
   {
-    "name": "BastianKamp",
-    "link": "https://github.com/BastianKamp",
-    "contributions": 1
-  },
-  {
     "name": "quantumfallout",
     "link": "https://github.com/quantumfallout",
-    "contributions": 1
-  },
-  {
-    "name": "derula",
-    "link": "https://github.com/derula",
-    "contributions": 1
-  },
-  {
-    "name": "flatron4eg",
-    "link": "https://github.com/flatron4eg",
     "contributions": 1
   }
 ]

@@ -71,7 +71,6 @@ Name: "Slovenian"; MessagesFile: "compiler:Languages\Slovenian.isl"
 Name: "Spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
 Name: "Turkish"; MessagesFile: "compiler:Languages\Turkish.isl"
 Name: "Ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl" 
-Name: "Korean"; MessagesFile: "compiler:Languages\Korean.isl"
 
 [InstallDelete]
 //[InstallDelete]
@@ -232,13 +231,13 @@ Name: "regularinstall\desktopicon"; Description: "Create a shortcut on the deskt
 Root: HKCU; Subkey: "SOFTWARE\Microsoft\Windows\CurrentVersion\Run"; ValueType: string; ValueName: "WingetUI"; ValueData: """{app}\WingetUI.exe"" --daemon"; Flags: uninsdeletevalue; Tasks: regularinstall
 
 [Files]
-Source: "Y:\WinGetUI-Store\wingetuiBin\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion; BeforeInstall: TripleKill('WingetUI.exe', 'winget.exe', 'choco.exe');
-Source: "Y:\WinGetUI-Store\wingetuiBin\*"; DestDir: "{app}"; Flags: createallsubdirs ignoreversion recursesubdirs;
-Source: "Y:\WinGetUI-Store\wingetuiBin\choco-cli\*"; DestDir: "{userpf}\WingetUI\choco-cli"; Flags: createallsubdirs ignoreversion recursesubdirs; Tasks: regularinstall
+Source: "D:\Projekte\WingetUI\wingetuiBin\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion; BeforeInstall: TripleKill('WingetUI.exe', 'winget.exe', 'choco.exe');
+Source: "D:\Projekte\WingetUI\wingetuiBin\*"; DestDir: "{app}"; Flags: createallsubdirs ignoreversion recursesubdirs;
+Source: "D:\Projekte\WingetUI\wingetuiBin\choco-cli\*"; DestDir: "{userpf}\WingetUI\choco-cli"; Flags: createallsubdirs ignoreversion recursesubdirs; Tasks: regularinstall
 
 ; MSVC++ redistributable runtime. Extracted by VC2017RedistNeedsInstall(), if needed.
-Source: "Y:\WinGetUI-Store\vcredist.exe"; DestDir: {tmp}; Flags: dontcopy
-Source: "Y:\WinGetUI-Store\SegUIVar.ttf"; DestDir: "{autofonts}"; FontInstall: "Segoe UI Variable"; Flags: onlyifdoesntexist uninsneveruninstall
+Source: "D:\Projekte\WingetUI\vcredist.exe"; DestDir: {tmp}; Flags: dontcopy
+Source: "D:\Projekte\WingetUI\SegUIVar.ttf"; DestDir: "{autofonts}"; FontInstall: "Segoe UI Variable"; Flags: onlyifdoesntexist uninsneveruninstall
 
 [Icons]
 ; Yes, they do have a space. This has been done in purpose for the updater to handle properly the new shortcuts
